@@ -14,10 +14,15 @@ function alertFunc()
     {
         myFunction();
     }
+	else
+	{
+		for(i=0;i<coments.length;i++)
+		{
+		console.log(coments[i].innerText);
+		}
+	}
+		
     
 }
 alertFunc();
-for(i=0;i<coments.length;i++)
-{
-console.log(coments[i].innerText);
-}
+
