@@ -1,4 +1,5 @@
-var global =parseInt(document.getElementsByClassName("fcg")[0].textContent.split(" ")[0].replace(".",""));
+//how many comments you want?
+var global =1091;
 var coments =document.getElementsByClassName("UFICommentActorAndBody");
 function myFunction() 
 {
