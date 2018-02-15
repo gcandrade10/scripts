@@ -17,10 +17,23 @@ function alertFunc()
     }
 	else
 	{
+		var listOfObjects = [];
 		for(i=0;i<coments.length;i++)
 		{
-		console.log(coments[i].innerText);
+		
+		var myObj = { "name":coments[i].children[0].innerText, 
+			     "comment":coments[i].children[1].innerText,
+			     "profile":coments[i].children[0].children[0].href};
+		listOfObjects.push(myObj);
 		}
+		function download(text, name, type) {
+		    var a = document.createElement("a");
+		    var file = new Blob([text], {type: type});
+		    a.href = URL.createObjectURL(file);
+		    a.download = name;
+		    a.click();
+		}
+		download(JSON.stringify(listOfObjects), 'test.txt', 'text/plain');
 	}
 		
     
