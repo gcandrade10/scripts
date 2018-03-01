@@ -1,9 +1,13 @@
 //how many comments you want?
-var global =1091;
+var numberOfComments =1091;
+//time to wait before load next comments, it is in ms, deppends of your internet connection
+var timeToWait=3000;
+//Name of your file without .json
+var nameOfYourJson="comments";
 var coments =document.getElementsByClassName("UFICommentActorAndBody");
 function myFunction() 
 {
-    setTimeout(alertFunc, 3000);
+    setTimeout(alertFunc, timeToWait);
 }
 function alertFunc() 
 {
@@ -11,7 +15,7 @@ function alertFunc()
 	a.click();
     coments =document.getElementsByClassName("UFICommentActorAndBody");
     console.log(coments.length);
-    if(coments.length<global)
+    if(coments.length<numberOfComments)
     {
         myFunction();
     }
@@ -33,10 +37,9 @@ function alertFunc()
 		    a.download = name;
 		    a.click();
 		}
-		download(JSON.stringify(listOfObjects), 'test.txt', 'text/plain');
+		download(JSON.stringify(listOfObjects), nameOfYourJson+'.json', 'text/plain');
 	}
 		
     
 }
 alertFunc();
-
