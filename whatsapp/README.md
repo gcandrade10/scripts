@@ -1,4 +1,4 @@
-# Whatsapp console
+# Web Whatsapp Console
 
 This a JavaScript script that allows you to move throgh whatsapp web chats and send message from your browser console.
 
