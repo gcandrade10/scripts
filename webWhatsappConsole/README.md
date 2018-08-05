@@ -15,10 +15,10 @@ This will print your most recent chats.
 
 Just use the methods:
 
-´´´
+```
 openChat(i)
-´´´
+```
 
-´´
+```
 send(message)
-´´
+```
