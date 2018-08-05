@@ -1,4 +1,4 @@
-# CommentsDownloader
+# Facebook Comments Downloader
 
 This a JavaScript script that allows you to download in json format a certain number of comments from a facebook post.
 It basically loads the comments throug hit the "more comments" button and when is ready it downloads the json.
