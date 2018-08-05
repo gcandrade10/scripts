@@ -4,23 +4,21 @@ This a JavaScript script that allows you to move throgh whatsapp web chats and s
 
 ## Getting Started
 
-Copy the [code](https://github.com/gcandrade10/scripts/blob/master/commentsDownloader.js)
-Goto facebook and clic in the time of the post:
-
-![Image of Date](https://github.com/gcandrade10/scripts/blob/master/demo/date.PNG?raw=true)
-
-This scripts only works if you are in a page that end with a number:
-
-![Image of Number](https://github.com/gcandrade10/scripts/blob/master/demo/number.PNG?raw=true)
+Copy the [code](https://raw.githubusercontent.com/gcandrade10/scripts/master/webWhatsappConsole/whatsapp.js)
+Goto [Web Whatsapp](https://web.whatsapp.com/) 
 
 Then just open the console of your browser (F12 in chrome)
 
-And paste the code
+And paste the code:
 
-Set the number of comments, the time to wait, the name of the file and hit enter
+This will print your most recent chats.
 
-Sample output:
+Just use the methods:
 
-![Image of Output](https://github.com/gcandrade10/scripts/blob/master/demo/sampleOutput.PNG?raw=true)
+´´´
+openChat(i)
+´´´
 
-### Prerequisites
+´´
+send(message)
+´´
