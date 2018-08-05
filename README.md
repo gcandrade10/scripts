@@ -1,7 +1,9 @@
 # Scripts
 
 Here will be stored my scripts:
-  * [commentsDownloader.js](#CommentsDownloader)
+  * [Facebook Comments Downloader](https://github.com/gcandrade10/scripts/tree/master/commentsDownloader)
+  * [Web Whatsapp Console](https://github.com/gcandrade10/scripts/tree/master/commentsDownloader)
+
       
 
 # CommentsDownloader
